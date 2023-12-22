@@ -5,7 +5,7 @@ $(document).ready(function() {
 
   $.ajax({
     type: 'GET',
-    url: 'http://3.27.142.83/getAll',
+    url: 'https://3.27.142.83/getAll',
     beforeSend: function() {
       showLoader();
     },
